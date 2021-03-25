@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main5Activity"
+    android:background="#FDFCF6">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\n
+► The headway between each train on Weekdays (Monday to Friday) will be 3½ minutes at peak hours and 8 minutes at non-peak hours. \nThe headway between each train on Saturdays during peak hours will be around 5 to 6 minutes. \nThe headway between each train on Sundays or Public Holidays will be 8 minutes.
+  \n
+  \n
+► The 1st train* will leave from Versova at 05:20 hrs and Ghatkopar at 05:29 hrs.
+  \n
+  \n
+► The last train* from Versova will leave at 23:20 hrs. The last train from Ghatkopar will leave at 23:46 hrs.
+  \n
+  \n
+► Subject to change from time to time, please contact Customer Care at station for an update on the same.\n"
+
+       android:textSize="20dp"
+        android:textColor="#00632E"/>
+
+</ScrollView>

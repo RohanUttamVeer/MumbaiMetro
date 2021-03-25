@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main8Activity"
+    android:background="#FAF1DE">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\nFrom:"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimary"/>
+    <Spinner
+        android:id="@+id/spinne_source1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="#FF0032"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\nTo:"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimary"/>
+
+    <Spinner
+        android:id="@+id/spinner_destination1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\nTotal Fare:"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimary"/>
+
+    <TextView
+        android:id="@+id/res1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50dp"
+        android:hint=""
+        android:layout_gravity="center"
+        android:textColor="#FF0032"/>
+</LinearLayout>

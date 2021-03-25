@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity"
+    android:background="@drawable/metro"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/metro"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="Metro station"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:background="@drawable/custom_button"/>
+
+
+    <Button
+        android:id="@+id/fare12"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:text="Fare"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:background="@drawable/custom_button"/>
+
+    <Button
+        android:id="@+id/timetable"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:text="Time Table"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:background="@drawable/custom_button"/>
+
+    <Button
+        android:id="@+id/rec"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:text="Recharge"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:background="@drawable/custom_button"/>
+
+</LinearLayout>
